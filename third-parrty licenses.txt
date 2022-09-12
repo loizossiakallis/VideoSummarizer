@@ -1,0 +1,43 @@
+SpeechRecognition
+https://pypi.org/project/SpeechRecognition/
+License: BSD License (BSD)
+Author: Anthony Zhang (Uberi)
+
+moviepy 
+url: https://pypi.org/project/moviepy/
+License: MIT License (MIT License)
+Author: Zulko 2017
+
+streamlit
+url: https://streamlit.io/
+License: Apache License 2.0
+
+punctuator 
+url: https://pypi.org/project/punctuator/
+License: MIT License (MIT)
+Author: Chris Spencer
+
+Wave
+url: https://pypi.org/project/Wave/
+License: GNU Library or Lesser General Public License (LGPL)
+Author: P Henderson and M J Henderson
+
+bert-extractive-summarizer
+url: https://pypi.org/project/bert-extractive-summarizer/
+License: MIT
+Author: Derek Miller
+
+networkx 
+url: https://pypi.org/project/networkx/
+License: BSD License
+Author: Aric Hagberg
+
+contextlib2 
+url: https://pypi.org/project/contextlib2/
+License: Apache Software License, Python Software Foundation License
+Author: Nick Coghlan
+
+nltk 
+url: https://pypi.org/project/nltk/
+License: Apache Software License
+Author: NLTK Team
