@@ -1,5 +1,4 @@
 import sys
-sys.path.remove('/home/appuser/venv/bin')
 from punctuator import Punctuator
 import wave
 import contextlib
