@@ -3,7 +3,7 @@ moviepy==1.0.3
 networkx==2.8.6
 nltk==3.7
 numpy==1.20.3
-punctuator==0.9.6
+punctuator
 SpeechRecognition==3.8.1
 streamlit==1.12.2
 summarizer==0.0.7
