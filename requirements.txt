@@ -138,8 +138,9 @@ Pygments==2.7.2
 pylint==2.5.3
 Pympler==1.0.1
 pyparsing==2.4.7
-PyQt5==5.12.3
-PyQt5-sip==4.19.18
+PyQt5==5.15.7
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.11.0
 PyQtWebEngine==5.12.1
 pyrsistent==0.17.3
 PySocks==1.7.1
