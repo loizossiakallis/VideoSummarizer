@@ -8,7 +8,8 @@ This project takes as an input a video, and uses it audio to produce a transcrip
 1. Download the project to a local directory
 2. Install the dependencies by entering the following command into the command prompt:
   `pip install -r requirements.txt`
-3. Run the application with *Streamlit* to use the GUI with the following command:
+3. Install one more dependency that requires conda, using the following command: `conda install scipy`
+4. Run the application with *Streamlit* to use the GUI with the following command:
   `streamlit run video_summarizer.py`
 
 ### Screenshots of GUI
