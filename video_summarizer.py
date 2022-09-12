@@ -312,6 +312,7 @@ def Summarize(transcript, txtrank, bert, gpt2, xlnet, cross, topic, perc):
     words = word_tokenize(transcript.lower())
     num_of_words_original = len(words)
     avg_chars_per_sent = math.ceil(num_of_chars_original / num_of_sent_original)
+    nltk.download('punkt')
     nltk.download("stopwords")
     wordFreq, content_words = WordOccurrences(sorted(words), stopwords.words('english'))
     percentage = perc/100
