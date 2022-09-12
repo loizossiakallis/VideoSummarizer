@@ -10,3 +10,9 @@ This project takes as an input a video, and uses it audio to produce a transcrip
   `pip install -r requirements.txt`
 3. Run the application with *Streamlit* to use the GUI with the following command:
   `streamlit run video_summarizer.py`
+
+### Screenshots of GUI
+![](screenshots/gui-1.png)
+![](screenshots/gui-2.png)
+![](screenshots/gui-3.png)
+![](screenshots/gui-4.png)
