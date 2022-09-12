@@ -8,4 +8,5 @@ SpeechRecognition==3.8.1
 streamlit==1.12.2
 summarizer==0.0.7
 tensorflow
+torch
 transformers
