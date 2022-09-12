@@ -149,6 +149,7 @@ python-Levenshtein-wheels==0.13.2
 pytz==2022.2.1
 pytz-deprecation-shim==0.1.0.post0
 PyWavelets==1.1.1
+pywin32==304
 pywinpty==0.5.7
 PyYAML==5.3.1
 pyzmq==20.0.0
@@ -162,7 +163,7 @@ rich==12.5.1
 rsa==4.6
 s3transfer==0.6.0
 sacremoses==0.0.53
-scikit-image==0.16.2
+scikit-image==0.19.3
 scikit-learn==1.1.2
 scipy==1.4.1
 semver==2.13.0
@@ -190,6 +191,7 @@ tf-slim==1.1.0
 Theano==1.0.5
 thinc==8.1.0
 threadpoolctl==3.1.0
+tifffile==2022.8.12
 tokenizers==0.12.1
 toml==0.10.1
 toolz==0.10.0
