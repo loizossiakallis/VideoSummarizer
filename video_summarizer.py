@@ -1,9 +1,10 @@
+sys.path.remove('/home/appuser/venv/bin')
+from punctuator import Punctuator
 import wave
 import contextlib
 import speech_recognition as sr
 from moviepy.editor import *
 import streamlit as st
-from punctuator import Punctuator
 import numpy as np
 import math
 import string
