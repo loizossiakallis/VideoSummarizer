@@ -3,8 +3,6 @@ import contextlib
 import speech_recognition as sr
 from moviepy.editor import *
 import streamlit as st
-import sys
-sys.path.remove('/home/appuser/venv/bin')
 from punctuator import Punctuator
 import numpy as np
 import math
