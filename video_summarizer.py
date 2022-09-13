@@ -13,8 +13,8 @@ import nltk
 from nltk.cluster.util import cosine_distance
 from summarizer import Summarizer, TransformerSummarizer
 import networkx as nx
-import sys
-sys.path.remove('/home/appuser/venv/bin')
+# import sys
+# sys.path.remove('/home/appuser/venv/bin')
 from punctuator import Punctuator
 
 p = Punctuator('Demo-Europarl-EN.pcl')
