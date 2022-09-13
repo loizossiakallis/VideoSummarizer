@@ -1,5 +1,3 @@
-import sys
-from punctuator import Punctuator
 import wave
 import contextlib
 import speech_recognition as sr
@@ -15,9 +13,11 @@ import nltk
 from nltk.cluster.util import cosine_distance
 from summarizer import Summarizer, TransformerSummarizer
 import networkx as nx
+import sys
+sys.path.remove('/home/appuser/venv/bin')
+from punctuator import Punctuator
 
 p = Punctuator('Demo-Europarl-EN.pcl')
-
 
 def Transcribe(video_file):
     audio_file = "audio_file.wav"
