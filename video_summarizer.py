@@ -13,8 +13,6 @@ import nltk
 from nltk.cluster.util import cosine_distance
 from summarizer import Summarizer, TransformerSummarizer
 import networkx as nx
-# import sys
-# sys.path.remove('/home/appuser/venv/bin')
 from punctuator import Punctuator
 
 p = Punctuator('Demo-Europarl-EN.pcl')
@@ -59,12 +57,10 @@ def WordOccurrences(text, sws):
 def AjiValue(sentence, myword, wordFreq, content_words):
     ps = PorterStemmer()
     fji = 0
-    # sentence = sentence.lower()
     sentence = word_tokenize(sentence)
     for word in sentence:
         if ps.stem(word.lower()) == myword:
             fji += 1
-    # Fa = len(wordFreq)
     Fa = content_words
     Fw = wordFreq[myword]
     icf = math.log(Fa/Fw)
@@ -102,7 +98,6 @@ def FindSentenceLengths(amp_vt):
             # for every value => row of each sentence
             # sum += amp_vt[i][j] ** 2
             sum += amp_vt[i][j]
-        # sent_len.append(math.sqrt(sum))
         sent_len.append(sum)
     return sent_len
 
@@ -134,6 +129,7 @@ def FindConceptStrengths(cXc):
         c_stren.append(current_con_stren)
     return c_stren
 
+# Cross method from Ozsoy's et al. paper in 2010 called "Text Summarization of Turkish Texts using Latent Semantic Analysis"
 def CrossMethod(N, sentences, wordFreq, content_words):
     A_mat = CreateA_Matrix(sentences, wordFreq, content_words)
     u, s_1, vh = np.linalg.svd(A_mat, full_matrices=True)
@@ -179,6 +175,7 @@ def CrossMethod(N, sentences, wordFreq, content_words):
 
     return sentence_selection
 
+# Topic method from Ozsoy's et al. paper in 2010 called "Text Summarization of Turkish Texts using Latent Semantic Analysis"
 def TopicMethod(N, sentences, wordFreq, content_words):
     A_mat = CreateA_Matrix(sentences, wordFreq, content_words)
     u, s_1, vh = np.linalg.svd(A_mat, full_matrices=True)
@@ -348,7 +345,6 @@ def Summarize(transcript, txtrank, bert, gpt2, xlnet, cross, topic, perc):
             st.session_state.to = " ".join(TopicMethod(n, sentences, wordFreq, content_words))
         st.subheader("LSA using Topic method")
         st.write(st.session_state.to)
-
 
 
 
