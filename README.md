@@ -9,7 +9,7 @@ This project takes as an input a video, and uses it audio to produce a transcrip
 2. Install the dependencies by entering the following command into the command prompt: `pip install -r requirements.txt`
 3. Run the application with *Streamlit* to use the GUI with the following command: `streamlit run video_summarizer.py`
 
-### Video demonstrating the system's functionality
+### Video demonstrating the system's functionality (click on the picture below to redirect to the youtube video)
 *Note: the transcription process takes the longest so skip to 1:52 where it finishes*
 [![Video demonstration](https://img.youtube.com/vi/3FHJODYE1Ps/maxresdefault.jpg)](https://youtu.be/3FHJODYE1Ps)
 
